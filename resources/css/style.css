@@ -1,0 +1,117 @@
+
+div {
+  border: 1px solid red;
+}
+
+html {
+  font-size: 16px;
+  font-family: helvetica;
+}
+
+/* Header content */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  border-bottom: 1px solid black;
+  position: fixed;
+  background-color: white;
+}
+
+.logotitle {
+  display: flex;
+  align-items: center;
+}
+
+.logotitle img {
+  height: 2rem;
+}
+
+.logotitle p {
+  font-size: 2rem;
+}
+
+ul {
+  display: flex;
+  margin-right: 1.5rem;
+}
+
+li {
+  padding: 0 1rem 0 0;
+}
+
+/* Banner section */
+
+.banner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 4rem;
+  background-color: grey;
+}
+
+.bsec1 {
+  margin: 2rem 0 2rem 1.5rem;
+  width: 60%;
+
+}
+
+.bsec1 img {
+  width: 100%;
+}
+
+.bsec2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-left: 1.5rem;
+  justify-content: center;
+}
+
+.bannertitle {
+  width: 80%;
+}
+
+.bannertitle h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  padding-bottom: 1.5rem;
+  line-height: 5rem;
+}
+
+.bannertitle p {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.bannerbutton {
+  display: flex;
+  width: 80%;
+  background-color: darkgrey;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.bannerbutton p {
+  padding: .5rem 0 .5rem 0;
+  font-size: 2rem;
+}
+
+/* Headlines section */
+
+.headlines {
+  display: flex;
+}
+
+.hlsec1 {
+  margin: 2rem 0 2rem 1.5rem;
+  width: 60%;
+}
+
+.hlsec1 img {
+  width: 80%;
+}
