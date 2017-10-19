@@ -67,7 +67,7 @@ li {
   display: flex;
   flex-direction: column;
   width: 40%;
-  padding-left: 1.5rem;
+  margin-left: 1.5rem;
   justify-content: center;
 }
 
@@ -108,10 +108,58 @@ li {
 }
 
 .hlsec1 {
+  display: flex;
+  flex-direction: column;
   margin: 2rem 0 2rem 1.5rem;
   width: 60%;
 }
 
 .hlsec1 img {
-  width: 80%;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.hlsec1 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.hlsec1 h2 {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.hlsec2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 1rem 0 0 1.5rem;
+  justify-content: center;
+}
+
+.news {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 1rem 1rem;
+  line-height: 2.5rem;
+}
+
+.news h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  align-items: center;
+}
+
+.news h3 {
+  font-size: 1rem;
+}
+
+.news p {
+  color: blue;
+}
+
+.newstext {
+  width: 100%;
+  margin-left: 2rem;
 }
