@@ -1,6 +1,6 @@
 
 div {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
 html {
@@ -19,6 +19,39 @@ header {
   border-bottom: 1px solid black;
   position: fixed;
   background-color: white;
+}
+
+header img {
+  margin-left: 2rem;
+}
+
+span {
+  color: royalblue;
+  text-shadow: .125rem .125rem .5625rem black;
+}
+
+a {
+  color: royalblue !important;
+}
+
+nav a:link {
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color .5s ease-out 0s;
+}
+
+nav a:hover {
+  color: white !important;
+  text-shadow: .125rem .125rem .25rem black;
+}
+
+nav a:active {
+  color: royalblue !important;
+  text-shadow: 0rem 0rem 0rem white;
+}
+
+nav a:visited {
+  color: black;
 }
 
 .logotitle {
@@ -50,7 +83,7 @@ li {
   width: 100%;
   height: 100%;
   padding-top: 4rem;
-  background-color: grey;
+  background-color: lightsteelblue;
 }
 
 .bsec1 {
@@ -80,6 +113,8 @@ li {
   font-size: 4rem;
   padding-bottom: 1.5rem;
   line-height: 5rem;
+  color: white;
+  text-shadow: .12rem .12rem .25rem black;
 }
 
 .bannertitle p {
@@ -91,14 +126,27 @@ li {
 .bannerbutton {
   display: flex;
   width: 80%;
-  background-color: darkgrey;
+  background-color: royalblue;
   justify-content: center;
   margin-top: 2rem;
+  border-radius: .25rem;
+  border: .14rem solid black;
+  box-shadow: .12rem .12rem grey;
 }
 
-.bannerbutton p {
+.bannerbutton a {
   padding: .5rem 0 .5rem 0;
   font-size: 2rem;
+  text-shadow: .12rem .12rem .25px black;
+}
+
+.bannerbutton a:link {
+  text-decoration: none;
+  color: lightsteelblue !important;
+}
+
+.bannerbutton a:visited {
+  color: lightsteelblue !important;
 }
 
 /* Headlines section */
@@ -138,6 +186,14 @@ li {
   justify-content: center;
 }
 
+.hlsec2 h3 {
+  line-height: 1.5rem;
+}
+
+.news a:link {
+  text-decoration: none;
+}
+
 .news {
   display: flex;
   align-items: center;
@@ -173,20 +229,21 @@ li {
 .startlearning {
   display: flex;
   flex-direction: column;
-  background-color: lightgrey;
+  background-color: lightsteelblue;
 }
 
 .sltitle {
   width: 100%;
-
 }
 
 .sltitle h1 {
   display: flex;
   font-size: 3rem;
   font-weight: bold;
-  margin: 2rem 0 2rem 0;
+  color: white;
+  text-shadow: .12rem .12rem .25rem black;
   justify-content: center;
+  margin: 2rem 0 2rem 0;
 }
 
 .slcontainer {
@@ -248,17 +305,35 @@ li {
   margin: 2rem 0 2rem 0;
 }
 
+.hlsec1 video,
+h1,
+h2, {
+  margin-left: 1.5rem;
+}
+
+#reimagine {
+  margin-top: 1.5rem;
+}
+
 /* Footer content */
 
 footer {
   width: 100%;
   height: 8rem;
-  background-color: grey;
+  background-color: lightsteelblue;
   border-top-color: black;
   border-left-color: white;
   border-right-color: white;
 }
 
+footer a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: blue;
+}
 .footertext {
   display: flex;
   padding: 1rem 0 0 1.5rem;
