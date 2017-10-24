@@ -1,6 +1,6 @@
 
 div {
-  border: 0px solid red;
+  border: 1px solid red;
 }
 
 html {
@@ -9,6 +9,10 @@ html {
 }
 
 /* Header content */
+
+#navmobile {
+  display: none;
+}
 
 header {
   display: flex;
@@ -74,6 +78,30 @@ ul {
 
 li {
   padding: 0 1rem 0 0;
+}
+
+@media only screen and (max-width: 470px) {
+
+  header {
+    justify-content: center;
+  }
+
+  #headerlogo, header p {
+    display: none;
+  }
+
+  #navnormal {
+    display: none;
+  }
+
+  #navmobile {
+    display: flex;
+  }
+
+  header img {
+    height: 3rem;
+    margin: 0 2rem 0 2rem;
+  }
 }
 
 /* Banner section */
@@ -149,10 +177,52 @@ li {
   color: lightsteelblue !important;
 }
 
+@media only screen and (max-width: 470px) {
+
+  .banner {
+    flex-direction: column;
+    width: 470px;
+  }
+
+  .bsec1 {
+    margin: 0rem 0 0rem 0rem;
+    width: 100%;
+  }
+
+  .bsec2 {
+    width: 100%;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .bannertitle h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .bannertitle {
+    width: 90%;
+  }
+
+  .bannertitle p {
+    font-size: 1.5rem;
+  }
+
+  .bannerbutton a {
+    padding: .5rem 0 .5rem 0;
+    font-size: 2rem;
+    text-shadow: .12rem .12rem .25px black;
+  }
+}
+
 /* Headlines section */
 
 .headlines {
   display: flex;
+}
+
+#imgmobile {
+  display: none;
 }
 
 .hlsec1 {
@@ -224,6 +294,45 @@ li {
   margin-left: 2rem;
 }
 
+@media only screen and (max-width: 470px) {
+
+  .headlines {
+    width: 470px;
+  }
+
+  #headline1 {
+    display: none;
+  }
+
+  #headline2 {
+    width: 100%;
+    margin: 0rem 0 0 0rem;
+  }
+
+  .news {
+    flex-direction: column;
+    align-items: center;
+    width: 92%;
+    margin: 1rem 0 1rem 1rem;
+    line-height: 2.5rem;
+  }
+
+  #imgnormal {
+    display: none;
+  }
+
+  #imgmobile {
+    display: inline;
+    width: 100%;
+  }
+
+  .newstext {
+    width: 90%;
+    margin-left: 2rem;
+  }
+
+}
+
 /* Start learning section */
 
 .startlearning {
@@ -288,6 +397,42 @@ li {
   margin-left: 1rem;
   font-size: 2rem;
   line-height: 3rem;
+}
+
+@media only screen and (max-width: 470px) {
+
+  .startlearning {
+    width: 470px;
+  }
+
+  .startlearning img, .startlearning p {
+    display: none;
+  }
+
+  .slcontainer {
+    flex-direction: column;
+    margin: 0 0rem 0 1rem;
+  }
+
+  .slbox {
+    width: 90%;
+    padding: 1rem 0 1rem 0;
+    margin-top: 1rem;
+    background-color: grey;
+    color: lightsteelblue;
+    text-shadow: .12rem .12rem .25rem black;
+    justify-content: center;
+  }
+
+  #bcontainer {
+    margin-top: 0rem;
+  }
+
+  .slbox h2 {
+    font-size: 2rem;
+    margin: 0rem 0 0 1rem;
+  }
+
 }
 
 /* Thesis exhibit */
