@@ -1,6 +1,7 @@
 
+/* div declaration for design purposes only */
 div {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
 html {
@@ -181,7 +182,7 @@ li {
 
   .banner {
     flex-direction: column;
-    width: 470px;
+    width: 29.375rem;
   }
 
   .bsec1 {
@@ -297,7 +298,7 @@ li {
 @media only screen and (max-width: 470px) {
 
   .headlines {
-    width: 470px;
+    width: 29.375rem;
   }
 
   #headline1 {
@@ -402,7 +403,7 @@ li {
 @media only screen and (max-width: 470px) {
 
   .startlearning {
-    width: 470px;
+    width: 29.375rem;
   }
 
   .startlearning img, .startlearning p {
@@ -450,6 +451,10 @@ li {
   margin: 2rem 0 2rem 0;
 }
 
+#videomobile {
+  display: none;
+}
+
 .hlsec1 video,
 h1,
 h2, {
@@ -458,6 +463,29 @@ h2, {
 
 #reimagine {
   margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 470px) {
+
+  .thesistitle {
+    width: 29.375rem;
+  }
+
+  #videonormal,
+  #thesis2,
+  #reimaginetxt,
+  #reimagine, li {
+    display: none;
+  }
+
+  #videomobile {
+    display: inline;
+  }
+
+  .hlsec1 {
+    margin-left: 0;
+  }
+
 }
 
 /* Footer content */
@@ -483,4 +511,20 @@ footer a:visited {
   display: flex;
   padding: 1rem 0 0 1.5rem;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 470px) {
+
+  footer {
+    width: 29.375rem;
+  }
+
+  footer a{
+    display: none;
+  }
+
+  .footertext {
+    padding-top: 5rem;
+  }
+
 }
