@@ -138,8 +138,9 @@ li {
 }
 
 .bannertitle h1 {
+  font-family: 'Indie Flower', cursive;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 5rem;
   padding-bottom: 1.5rem;
   line-height: 5rem;
   color: white;
